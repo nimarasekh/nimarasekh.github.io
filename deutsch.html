@@ -13,6 +13,7 @@
 body, p, ul, ol {
     font-size: 100%;
 }
+
 .profile-image {
     width: 100%;
     max-width: 666px;
@@ -27,10 +28,20 @@ body, p, ul, ol {
 }
 
 .social-icon {
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
-}
+            width: 4%;             
+            max-width: 24px;       
+            min-width: 16px;       
+            height: auto;          
+            vertical-align: middle; 
+        }
+
+@media (max-width: 768px) {
+    .social-icon {
+                width: 20px;       
+                height: auto;
+            }
+        }
+
 body {
     background-color: #e6f2ff;
 }
