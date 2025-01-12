@@ -3,43 +3,57 @@
 
 <head>
   <title>Nima Rasekh's Akademische Webseite</title>
-  <meta name="Home Page of Nima Rasekh" 
-content="This is the academic home page of Nima Rasekh."
- charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="description" content="This is the academic home page of Nima Rasekh.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Nima Rasekh">
 </head>
 
 <style>
- p  {
-    font-size:100%;
+body, p, ul, ol {
+    font-size: 100%;
+}
+.profile-image {
+    width: 100%;
+    max-width: 666px;
+    height: auto;
+    float: right;
+    display: block; 
 }
 
-ul  {
-    font-size:100%;
+.image-container {
+            width: 100%;   
+            margin: 0 auto;
 }
-ol  {
-    font-size:100%;
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+body {
+    background-color: #e6f2ff;
 }
 </style>
 
-<body bgcolor=#e6f2ff>
-
 <h1>Nima Rasekh's Akademische Webseite</h1>
-<img src="Nima_MFO.jpg" alt="My Pic" style="float:right;width:666px;height:500px;">
+<div class="image-container">
+    <img src="Nima_MFO.jpg" alt="Photo of Nima Rasekh at Oberwolfach" class="profile-image">
+</div>
 <p>(<a href="https://nimarasekh.github.io/">english version</a>)</p>
 <p> Ich bin zurzeit Postdoktorand am <a href="https://www.uni-greifswald.de/">Universität Greifswald</a> in der Forschungsgruppe von <a href="http://math.konradwaldorf.de">Konrad Waldorf</a> und <a href="https://www.matthias-ludewig.eu/">Matthias Ludewig</a>, und Quantum Formalism (QF) Fellow in der <a href="https://zaikugroup.com/">Zaiku Group</a>. Ich bin derzeit auf dem akademischen Arbeitsmarkt auf der Suche nach Tenure-Track Positionen. Hier sind einige Links mit mehr Information: </p>
 
 <p>
-    <a href="CV.pdf"><img src="icon/pdf.png" alt="CV" width="24" height="24" style="vertical-align: middle;"></a> CV (Okt 2024)&nbsp;&nbsp;
-    <a href="https://github.com/nimarasekh"><img src="icon/github.png" alt="GitHub" width="24" height="24" style="vertical-align: middle;"></a> GitHub&nbsp;&nbsp;
-    <a href="http://arxiv.org/a/rasekh_n_1"><img src="icon/arxiv.png" alt="Arxiv" width="24" height="24" style="vertical-align: middle;"></a> Arxiv&nbsp;&nbsp;
-    <a href="https://scholar.google.com/citations?user=gh51F68AAAAJ&hl=en&oi=ao"><img src="icon/scholar.png" alt="Scholar" width="24" height="24" style="vertical-align: middle;"></a> Google Scholar&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/nimarasekh/"><img src="icon/linkedin.png" alt="LinkedIn" width="24" height="24" style="vertical-align: middle;"></a> LinkedIn&nbsp;&nbsp;
-    <a href="https://orcid.org/0000-0003-0766-2755"><img src="icon/orcid.png" alt="Orcid" width="24" height="24" style="vertical-align: middle;"></a> ORCID&nbsp;&nbsp;
-    <a href="https://www.researchgate.net/profile/Nima-Rasekh"><img src="icon/researchgate.png" alt="ResearchGate" width="24" height="24" style="vertical-align: middle;"></a> ResearchGate&nbsp;&nbsp;
-    <a href="https://x.com/nima_rasekh"><img src="icon/x.png" alt="X" width="24" height="24" style="vertical-align: middle;"></a> X&nbsp;&nbsp;
-    <a href="https://bsky.app/profile/nimarasekh.bsky.social"><img src="icon/bluesky.png" alt="Bluesky" width="24" height="24" style="vertical-align: middle;"></a> Bluesky&nbsp;&nbsp;
-    <!-- <a href="https://mastodon.social/@nimarasekh"><img src="icon/mastodon.png" alt="Mastodon" width="24" height="24" style="vertical-align: middle;"></a> Mastodon&nbsp;&nbsp; -->
-    <a href="https://mathstodon.xyz/@nimarasekh"><img src="icon/mastodon.png" alt="Mastodon" width="24" height="24" style="vertical-align: middle;"></a> Mastodon
+    <a href="CV.pdf"  aria-label="CV"><img src="icon/pdf.png" alt="CV" class="social-icon"></a> CV (Oct 2024)&nbsp;&nbsp;
+    <a href="https://github.com/nimarasekh" aria-label="Github"><img src="icon/github.png" alt="GitHub" class="social-icon"></a> GitHub&nbsp;&nbsp;
+    <a href="http://arxiv.org/a/rasekh_n_1" aria-label="ArXiv"><img src="icon/arxiv.png" alt="Arxiv" class="social-icon"></a> Arxiv&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=gh51F68AAAAJ&hl=en&oi=ao"  aria-label="Google Scholar"><img src="icon/scholar.png" alt="Scholar" class="social-icon"></a> Google Scholar&nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/nimarasekh/" aria-label="LinkedIn"><img src="icon/linkedin.png" alt="LinkedIn" class="social-icon"></a> LinkedIn&nbsp;&nbsp;
+    <a href="https://orcid.org/0000-0003-0766-2755" aria-label="ORCID"><img src="icon/orcid.png" alt="Orcid" class="social-icon"></a> ORCID&nbsp;&nbsp;
+    <a href="https://www.researchgate.net/profile/Nima-Rasekh" aria-label="ResearchGate"><img src="icon/researchgate.png" alt="ResearchGate" class="social-icon"></a> ResearchGate&nbsp;&nbsp;
+    <a href="https://x.com/nima_rasekh" aria-label="X"><img src="icon/x.png" alt="X" class="social-icon"></a> X&nbsp;&nbsp;
+    <a href="https://bsky.app/profile/nimarasekh.bsky.social" aria-label="BlueSky"><img src="icon/bluesky.png" alt="Bluesky" class="social-icon"></a> Bluesky&nbsp;&nbsp;
+    <a href="https://mathstodon.xyz/@nimarasekh" aria-label="Mastodon"><img src="icon/mastodon.png" alt="Mastodon" class="social-icon"></a> Mastodon
 </p>
 <!-- <ul>
 <li> In meinem <a href="CV.pdf">CV</a> (letztes Update: Oktober 2024)</a>,</li>
@@ -47,18 +61,13 @@ ol  {
 <li>Oder via email nima.rasekh [at] uni-greifswald.de. </li>
 </ul> -->
 
-<!--
-Detailliertere Information findet sich auf meinem <a href="CV.pdf">CV</a> (letzter Update: Oktober 2022). Man kann mich auch via E-Mail erreichen: rasekh [at] mpim-bonn.mpg.de.</p>
-</p>
--->
-
 <p>
     Es gibt auch mehrere Möglichkeiten mich zu kontaktieren:
 </p>
 
 <p>
-    <a href="mailto:nima.rasekh@uni-greifswald.de"><img src="icon/email.png" alt="Email" width="24" height="24" style="vertical-align: middle;"></a> E-Mail&nbsp;&nbsp;
-    <a href="https://discordapp.com/users/973956815140290581"><img src="icon/discord.png" alt="Discord" width="24" height="24" style="vertical-align: middle;"></a> Discord
+    <a href="mailto:nima.rasekh@uni-greifswald.de"><img src="icon/email.png" alt="Email" class="social-icon"></a> Email&nbsp;&nbsp;
+    <a href="https://discordapp.com/users/973956815140290581"><img src="icon/discord.png" alt="Discord" class="social-icon"></a> Discord
 </p>
 
 <p>
@@ -155,7 +164,6 @@ Vor meiner jetzigen Position in Greifswald war ich eine Zeit lang Postdoktorand 
 <li><a href="GSTGC2016.pdf">A New Approach to Straightening</a>:<br />Dies sind meine Folien für den Vortrag, den ich auf der <a href="https://www.indiana.edu/~gstc/">GSTGC (Graduate Student Geometry Topology Conference) 2016</a> gehalten habe. Ich zeige eine Methode, um die Unstraightening Konstruktion einem größeren mathematischen Publikum vorzustellen.</li>
 <li>Ich habe meine Promotion Vorprüfung am 3. März 2015 abgelegt. Hier sind mein <a href="prelim-notes.pdf">Vorprüfungsplan</a> und die <a href="prelim-slides">Folien</a> meines Vorprüfungsvortrags.</li>
 </ul>
-
 
 </body>
 </html>
