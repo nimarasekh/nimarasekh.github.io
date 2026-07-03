@@ -16,6 +16,30 @@ body, p, ul, ol {
 
 .profile-image {
     width: 100%;
+    max-width: 520px;
+    height: auto;
+    display: block;
+}
+
+.profile-image + .profile-image {
+    margin-top: 0.5em;
+}
+
+.image-container {
+    width: 100%;
+    max-width: 520px;
+    float: left;
+    margin: 0 0 1em 1em;
+}
+
+.image-note {
+    font-size: 80%;
+    text-align: center;
+    margin: 0.4em 0 0 0;
+}
+
+/* .profile-image {
+    width: 100%;
     max-width: 666px;
     height: auto;
     float: left;
@@ -25,7 +49,7 @@ body, p, ul, ol {
 .image-container {
             width: 100%;   
             margin: 0 auto;
-}
+} */
 
 .social-icon {
             width: 4%;             
@@ -48,8 +72,16 @@ body {
 </style>
 
 <h1>صفحه آکادمیک نیما راسخ</h1>
-<div class="image-container">
+<!-- <div class="image-container">
     <img src="Nima_MFO.jpg" alt="عکس نیما راسخ در اوبرولفاخ (Oberwolfach)" class="profile-image">
+</div> -->
+<div class="image-container">
+    <img src="Nima_MFO.jpg" alt="Photo of Nima Rasekh at Oberwolfach" class="profile-image">
+    <p class="image-note">عکس از <a href="https://lynemoser.com/">لین موزر (Lyne Moser)</a> در <a href="https://www.mfo.de/">اوبرولفاخ (Oberwolfach)</a>.</p>
+    <!-- <p class="image-note">Photo by <a href="https://lynemoser.com/">Lyne Moser</a> at <a href="https://www.mfo.de/">Oberwolfach</a>.</p> -->
+    <img src="IML.jpg" alt="Group photo of conference Formalizing Higher Categories at Institute Mittag-Leffler" class="profile-image">
+    <!-- <p class="image-note">Group photo of <a href="https://www.linkedin.com/posts/nimarasekh_math-formalization-ai-activity-7377064045968826368-BLgt">our</a> conference <a href="https://www.mittag-leffler.se/activities/formalizing-higher-categories/">Formalizing Higher Categories</a> courtesy of the <a href="https://www.mittag-leffler.se/">Institut Mittag-Leffler</a></p> -->
+    <p class="image-note">عکس گروهی کنفرانس <a href="https://www.linkedin.com/posts/nimarasekh_math-formalization-ai-activity-7377064045968826368-BLgt">ما</a>، <a href="https://www.mittag-leffler.se/activities/formalizing-higher-categories/">Formalizing Higher Categories</a>، با سپاس از <a href="https://www.mittag-leffler.se/">مؤسسهٔ میتاگ-لفلر</a></p>
 </div>
     <p>(<a href="https://nimarasekh.github.io">english version</a>)<br>(<a href="https://nimarasekh.github.io/deutsch">deutsche Version</a>)</p>
 
